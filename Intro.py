@@ -16,9 +16,9 @@ with st.sidebar:
   )
   st.write(parrafo)
 
-url_ia="https://fruit-app.streamlit.app/"
-st.subheader("En el siguiente enlace puedes encontrar una pagina de cercania de datos con frutas")
-st.write(f"Enlace para cercania de frutas: [Enlace]({url_ia})")
+url_ia="https://portafolio-2.streamlit.app/"
+st.subheader("En el siguiente enlace puedes encontrar una paginas acerca de diferentes aplicaciones.")
+st.write(f"Enlace para app de tremas diversos: [Enlace]({url_ia})")
 col1, col2, col3 = st.columns(3)
 
 with col1:
