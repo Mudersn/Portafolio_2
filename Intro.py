@@ -1,13 +1,18 @@
 import streamlit as st
 from PIL import Image
-st.title("Aplicaciones de Inteligencia Artificial.")
+st.title("Aplicaciones del portafolio 2 .")
 
 with st.sidebar:
-  st.subheader("Aplicaciones con Inteligencia Artificial.")
+  st.subheader("Aplicaciones para el portafolio 2.")
   parrafo = (
-    "La inteligencia artificial permite mejorar la toma de decisiones con el uso de datos, "
-    "automatizar tareas rutinarias y proporcionar análisis avanzados en tiempo real, lo que "
-    "resulta en una mayor eficiencia y precisión en diversos campos."
+    "En estas sesiones aprendimos diferentes técnicas de análisis de datos aplicadas a problemas reales.",
+    "Exploramos la visualización de datos, storytelling y PCA para entender mejor el consumo energético. También trabajamos" ,
+    "con el algoritmo KNN, una herramienta sencilla pero muy útil para clasificar información, como la fertilidad de los suelos, ",
+    "además de conocer sus aplicaciones en recomendadores, salud, agricultura y detección de anomalías.",
+    "También vimos cómo pasar de la regresión lineal a la regresión logística para predecir categorías en lugar de valores numéricos. Por otra parte, utilizamos tecnologías IoT para capturar y procesar datos provenientes de sensores,",
+    "fortaleciendo el trabajo con datos reales.",
+    "Finalmente, estudiamos series de tiempo y modelos predictivos como ARIMA, SARIMA y Holt-Winters para analizar y pronosticar variables como la calidad del aire. Esto nos permitió comprender cómo usar datos históricos para identificar tendencias,",
+    "nticipar comportamientos futuros y apoyar la toma de decisiones basadas en datos."
   )
   st.write(parrafo)
 
