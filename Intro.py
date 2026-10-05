@@ -35,58 +35,58 @@ with col1:
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos como se detectan las anomalias en una alarma que se dispara con una condición fija que tú defines.") 
  url = "https://dectectoranomaly-bgxq2qlvhgxjcv3kqecbxw.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
+ st.write(f"Dectector: [Enlace]({url})")
 
  st.subheader("graficos de niveles rios y quebradas")
  image = Image.open('OIG5.jpg')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos los niveles de inudacion que pueden cojer los rios y quebradas de colombia por sensores.") 
  url = "https://marcopolo.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
+ st.write(f"Niveles: [Enlace]({url})")
 
 with col2: 
- st.subheader("Conversión de voz a texto")
+ st.subheader("Series de Tiempo Sensor IoT interactivo")
  image = Image.open('OIG8.jpg')
  st.image(image, width=200)
- st.write("En la siguiente veremos una aplicación que usa la conversión de voz a texto.") 
- url = "https://traductorw.streamlit.app/"
- st.write(f"Voz a texto: [Enlace]({url})")
+ st.write("En la siguiente veremos una aplicación que usa sensores para calcular la temperatura de una serie de tiempo simulada.") 
+ url = "https://seriestempo-jkdnyxqnwdvxlwvpljnuzn.streamlit.app//"
+ st.write(f"Sensores: [Enlace]({url})")
 
- st.subheader("Análisis de Datos")
+ st.subheader("dataset preparado")
  image = Image.open('data_analisis.png')
  st.image(image, width=190)
- st.write("En la siguiente enlace veremos como se pueden analizar datos usando agentes.") 
- url = "https://dataagente.streamlit.app/"
- st.write(f"Datos: [Enlace]({url})")
+ st.write("En la siguiente enlace veremos Antes de construir cualquier modelo o método computacional, es necesario entender, limpiar y estructurar los datos disponibles. Esta aplicación acompaña el notebook del módulo y permite experimentar en vivo con cada concepto usando un dataset sintético de sensores IoT.") 
+ url = "https://datapreparet-pa4yxvx6wpeg9kkiexqk54.streamlit.app/"
+ st.write(f"Dataset: [Enlace]({url})")
 
- st.subheader("Trasnscriptor Audio y Video")
+ st.subheader("probabilidad de lluvia")
  image = Image.open('OIG3.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como realizamos transcripciones de audio/video.") 
- url = "https://transcript-whisper.streamlit.app/"
- st.write(f"Transcriptor: [Enlace]({url})")
+ st.write("En la siguiente enlace veremos como realizamos proyeciones para la probabilidad de que llueeva no moviendo diferente datos.") 
+ url = "https://regresionlog.streamlit.app/"
+ st.write(f"Lluvia: [Enlace]({url})")
 
 
 with col3: 
- st.subheader("Generación en Contexto")
+ st.subheader("evaluacion de metricas de regrecion")
  image = Image.open('Chat_pdf.png')
  st.image(image, width=190)
- st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
- url = "https://chatpdf-cc.streamlit.app/"
- st.write(f"RAG: [Enlace]({url})")
+ st.write("En la siguiente veremos una aplicación La regresión permite predecir valores numéricos a partir de datos históricos. Esta app recorre, de forma interactiva, las piezas que componen un modelo de regresión: el modelo, la función de costo, el gradiente, el algoritmo de aprendizaje y las métricas para evaluar qué tan bien predice. Todo con datos reales de vivienda en California.") 
+ url = "https://regrecionapp.streamlit.app/"
+ st.write(f"Regrecion: [Enlace]({url})")
 
- st.subheader("Análisis de Imagen")
+ st.subheader("Explora KNN con datos del suelo")
  image = Image.open('OIG4.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de análisis en Imágenes.") 
- url = "https://vision2-gpt4o.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
+ st.write("En la siguiente enlace veremos la capacidad de explorar el KNN Datos abiertos del Laboratorio de Química y Física de Suelos de AGROSAVIA") 
+ url = "https://fertiart-n9kzchy8k9nug9zb2lcjhu.streamlit.app/"
+ st.write(f"KNN: [Enlace]({url})")
  
- st.subheader("Sistema Ciberfísico")
+ st.subheader("Gradiente Interactivo")
  image = Image.open('OIG6.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
- url = "https://vision2-gpt4o.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
+ st.write("En la siguiente enlace veremos como explora en vivo cómo la tasa de aprendizaje el punto inicial que afectan la convergencia del descenso del gradiente.") 
+ url = "https://gradiente-kp3sfhxqfoakl5neebbe9v.streamlit.app/"
+ st.write(f"Gradiante: [Enlace]({url})")
 
 
