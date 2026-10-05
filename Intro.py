@@ -24,21 +24,21 @@ col1, col2, col3 = st.columns(3)
 with col1:
  
  st.subheader("cercania entre frutas")
- image = Image.open('txt_to_audio2.png')
+ image = Image.open('El_coco.png')
  st.image(image, width=190)
  st.write("En la siguiente enlace usaremos una de las aplicacione para encontra la cercania entre frutas") 
  url = "https://fruit-app.streamlit.app/"
  st.write(f"cercania: [Enlace]({url})")
 
  st.subheader("dectector de anomalias")
- image = Image.open('txt_to_audio.png')
+ image = Image.open('visor_de_anomalias.png')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos como se detectan las anomalias en una alarma que se dispara con una condición fija que tú defines.") 
  url = "https://dectectoranomaly-bgxq2qlvhgxjcv3kqecbxw.streamlit.app/"
  st.write(f"Dectector: [Enlace]({url})")
 
  st.subheader("graficos de niveles rios y quebradas")
- image = Image.open('OIG5.jpg')
+ image = Image.open('rios_y_quebradas.jpg')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos los niveles de inudacion que pueden cojer los rios y quebradas de colombia por sensores.") 
  url = "https://marcopolo.streamlit.app/"
@@ -46,7 +46,7 @@ with col1:
 
 with col2: 
  st.subheader("Series de Tiempo Sensor IoT interactivo")
- image = Image.open('OIG8.jpg')
+ image = Image.open('sensortemp.jpg')
  st.image(image, width=200)
  st.write("En la siguiente veremos una aplicación que usa sensores para calcular la temperatura de una serie de tiempo simulada.") 
  url = "https://seriestempo-jkdnyxqnwdvxlwvpljnuzn.streamlit.app//"
