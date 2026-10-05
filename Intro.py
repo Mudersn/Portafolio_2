@@ -30,18 +30,18 @@ with col1:
  url = "https://fruit-app.streamlit.app/"
  st.write(f"cercania: [Enlace]({url})")
 
- st.subheader("Reconocimiento de Objetos")
+ st.subheader("dectector de anomalias")
  image = Image.open('txt_to_audio.png')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
- url = "https://yolov5cmc.streamlit.app/"
+ st.write("En la siguiente enlace veremos como se detectan las anomalias en una alarma que se dispara con una condición fija que tú defines.") 
+ url = "https://dectectoranomaly-bgxq2qlvhgxjcv3kqecbxw.streamlit.app/"
  st.write(f"YOLO: [Enlace]({url})")
 
- st.subheader("Entrenando Modelos")
+ st.subheader("graficos de niveles rios y quebradas")
  image = Image.open('OIG5.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como puedes usar tu modelo entrenado.") 
- url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
+ st.write("En la siguiente enlace veremos los niveles de inudacion que pueden cojer los rios y quebradas de colombia por sensores.") 
+ url = "https://marcopolo.streamlit.app/"
  st.write(f"YOLO: [Enlace]({url})")
 
 with col2: 
