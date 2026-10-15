@@ -38,7 +38,7 @@ with col1:
  st.write(f"Dectector: [Enlace]({url})")
 
  st.subheader("graficos de niveles rios y quebradas")
- image = Image.open('rios_y_quebradas.jpg')
+ image = Image.open('rios_y_quebradas.png')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos los niveles de inudacion que pueden cojer los rios y quebradas de colombia por sensores.") 
  url = "https://marcopolo.streamlit.app/"
