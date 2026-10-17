@@ -60,7 +60,7 @@ with col2:
  st.write(f"Dataset: [Enlace]({url})")
 
  st.subheader("probabilidad de lluvia")
- image = Image.open('lluvia_probabili.png')
+ image = Image.open('lluvia_probabilii.png')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos como realizamos proyeciones para la probabilidad de que llueeva no moviendo diferente datos.") 
  url = "https://regresionlog.streamlit.app/"
