@@ -76,7 +76,7 @@ with col3:
  st.write(f"Regrecion: [Enlace]({url})")
 
  st.subheader("Explora KNN con datos del suelo")
- image = Image.open('KKN.jpg')
+ image = Image.open('KKN.png')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos la capacidad de explorar el KNN Datos abiertos del Laboratorio de Química y Física de Suelos de AGROSAVIA") 
  url = "https://fertiart-n9kzchy8k9nug9zb2lcjhu.streamlit.app/"
