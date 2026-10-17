@@ -69,7 +69,7 @@ with col2:
 
 with col3: 
  st.subheader("evaluacion de metricas de regrecion")
- image = Image.open('gradiantes.png')
+ image = Image.open('regrecion.png')
  st.image(image, width=190)
  st.write("En la siguiente veremos una aplicación La regresión permite predecir valores numéricos a partir de datos históricos. Esta app recorre, de forma interactiva, las piezas que componen un modelo de regresión: el modelo, la función de costo, el gradiente, el algoritmo de aprendizaje y las métricas para evaluar qué tan bien predice. Todo con datos reales de vivienda en California.") 
  url = "https://regrecionapp.streamlit.app/"
@@ -83,7 +83,7 @@ with col3:
  st.write(f"KNN: [Enlace]({url})")
  
  st.subheader("Gradiente Interactivo")
- image = Image.open('gradiante.jpg')
+ image = Image.open('gradiantes.png')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos como explora en vivo cómo la tasa de aprendizaje el punto inicial que afectan la convergencia del descenso del gradiente.") 
  url = "https://gradiente-kp3sfhxqfoakl5neebbe9v.streamlit.app/"
