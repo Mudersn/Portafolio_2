@@ -46,21 +46,21 @@ with col1:
 
 with col2: 
  st.subheader("Series de Tiempo Sensor IoT interactivo")
- image = Image.open('sensortemp.jpg')
+ image = Image.open('sensortemp.png')
  st.image(image, width=200)
  st.write("En la siguiente veremos una aplicación que usa sensores para calcular la temperatura de una serie de tiempo simulada.") 
  url = "https://seriestempo-jkdnyxqnwdvxlwvpljnuzn.streamlit.app//"
  st.write(f"Sensores: [Enlace]({url})")
 
  st.subheader("dataset preparado")
- image = Image.open('data_analisis.png')
+ image = Image.open('data_center.png')
  st.image(image, width=190)
  st.write("En la siguiente enlace veremos Antes de construir cualquier modelo o método computacional, es necesario entender, limpiar y estructurar los datos disponibles. Esta aplicación acompaña el notebook del módulo y permite experimentar en vivo con cada concepto usando un dataset sintético de sensores IoT.") 
  url = "https://datapreparet-pa4yxvx6wpeg9kkiexqk54.streamlit.app/"
  st.write(f"Dataset: [Enlace]({url})")
 
  st.subheader("probabilidad de lluvia")
- image = Image.open('OIG3.jpg')
+ image = Image.open('lluvia_probabili.png')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos como realizamos proyeciones para la probabilidad de que llueeva no moviendo diferente datos.") 
  url = "https://regresionlog.streamlit.app/"
@@ -69,7 +69,7 @@ with col2:
 
 with col3: 
  st.subheader("evaluacion de metricas de regrecion")
- image = Image.open('Chat_pdf.png')
+ image = Image.open('grediantes.png')
  st.image(image, width=190)
  st.write("En la siguiente veremos una aplicación La regresión permite predecir valores numéricos a partir de datos históricos. Esta app recorre, de forma interactiva, las piezas que componen un modelo de regresión: el modelo, la función de costo, el gradiente, el algoritmo de aprendizaje y las métricas para evaluar qué tan bien predice. Todo con datos reales de vivienda en California.") 
  url = "https://regrecionapp.streamlit.app/"
