@@ -69,7 +69,7 @@ with col2:
 
 with col3: 
  st.subheader("evaluacion de metricas de regrecion")
- image = Image.open('grediantes.png')
+ image = Image.open('gradiantes.png')
  st.image(image, width=190)
  st.write("En la siguiente veremos una aplicación La regresión permite predecir valores numéricos a partir de datos históricos. Esta app recorre, de forma interactiva, las piezas que componen un modelo de regresión: el modelo, la función de costo, el gradiente, el algoritmo de aprendizaje y las métricas para evaluar qué tan bien predice. Todo con datos reales de vivienda en California.") 
  url = "https://regrecionapp.streamlit.app/"
