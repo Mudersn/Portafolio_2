@@ -76,14 +76,14 @@ with col3:
  st.write(f"Regrecion: [Enlace]({url})")
 
  st.subheader("Explora KNN con datos del suelo")
- image = Image.open('OIG4.jpg')
+ image = Image.open('KKN.jpg')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos la capacidad de explorar el KNN Datos abiertos del Laboratorio de Química y Física de Suelos de AGROSAVIA") 
  url = "https://fertiart-n9kzchy8k9nug9zb2lcjhu.streamlit.app/"
  st.write(f"KNN: [Enlace]({url})")
  
  st.subheader("Gradiente Interactivo")
- image = Image.open('OIG6.jpg')
+ image = Image.open('gradiante.jpg')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos como explora en vivo cómo la tasa de aprendizaje el punto inicial que afectan la convergencia del descenso del gradiente.") 
  url = "https://gradiente-kp3sfhxqfoakl5neebbe9v.streamlit.app/"
